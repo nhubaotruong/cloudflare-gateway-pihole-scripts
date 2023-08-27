@@ -32,7 +32,7 @@ urls=(
   https://secure.fanboy.co.nz/fanboy-annoyance.txt
   https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
   https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt
-  https://pgl.yoyo.org/as/serverlist.php?hostformat=domains&mimetype=plaintext
+  https://pgl.yoyo.org/as/serverlist.php?hostformat%3Ddomains%26mimetype%3Dplaintext
   https://someonewhocares.org/hosts/zero/hosts
   https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/alexa
   https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/huawei
@@ -46,7 +46,7 @@ urls=(
   https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Spotify-AdBlock.txt
   https://phishing.army/download/phishing_army_blocklist.txt
   https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
-  http://winhelp2002.mvps.org/hosts.txt
+  https://winhelp2002.mvps.org/hosts.txt
   https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
 )
 
@@ -57,8 +57,8 @@ for url in "${urls[@]}"; do
   # download the file with curl and save it as file.txt
   curl -o "$file.txt" "$url"
   # append the file contents to input.csv and add a newline
-  cat "$file.txt" >> input.csv
-  echo "" >> input.csv
+  cat "$file.txt" >>input.csv
+  echo "" >>input.csv
   # remove the file.txt
   rm "$file.txt"
 done
