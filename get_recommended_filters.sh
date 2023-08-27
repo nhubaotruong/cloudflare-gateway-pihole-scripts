@@ -31,6 +31,7 @@ urls=(
   https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
   https://secure.fanboy.co.nz/fanboy-annoyance.txt
   https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
+  https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
   https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt
   https://pgl.yoyo.org/as/serverlist.php?hostformat%3Ddomains%26mimetype%3Dplaintext
   https://someonewhocares.org/hosts/zero/hosts
@@ -48,6 +49,10 @@ urls=(
   https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
   https://winhelp2002.mvps.org/hosts.txt
   https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
+  https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt
+  https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+  https://easylist.to/easylist/easylist.txt
+  https://easylist.to/easylist/easyprivacy.txt
 )
 
 # loop through the urls and download each file with curl
