@@ -15,7 +15,7 @@ urls=(
   https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
   https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
   https://raw.githubusercontent.com/DandelionSprout/adfilt/master/RickrollLinkIdentifier.txt
-  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/I%20Don't%20Want%20to%20Download%20Your%20Browser.txt"
+  https://raw.githubusercontent.com/DandelionSprout/adfilt/master/I%20Don%27t%20Want%20to%20Download%20Your%20Browser.txt
   https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt
   https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AdRemovalListForUnusualAds.txt
   https://abpvn.com/filter/abpvn-2KCGM2.txt
@@ -25,6 +25,7 @@ urls=(
   https://raw.githubusercontent.com/sophoslabs/covid-iocs/master/malicious_domains.txt
   https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt
   https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt
+  https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt
   https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
   https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
   https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
