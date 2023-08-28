@@ -59,6 +59,11 @@ urls=(
   https://easylist-downloads.adblockplus.org/easylistchina.txt
   https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
   https://raw.githubusercontent.com/tiuxo/hosts/master/ads
+  https://www.fanboy.co.nz/fanboy-vietnam.txt
+  https://raw.githubusercontent.com/nmtrung/FMSF-2.0/master/fmsf_2.0.txt
+  https://raw.githubusercontent.com/help-14/vietnam-adblock-list/master/blocks.txt
+  https://malware-filter.gitlab.io/malware-filter/vn-badsite-filter-hosts.txt
+  https://malware-filter.gitlab.io/malware-filter/phishing-filter-hosts.txt
 )
 
 # loop through the urls and download each file with curl
