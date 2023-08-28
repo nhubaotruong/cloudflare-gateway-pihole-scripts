@@ -12,6 +12,7 @@ urls=(
   https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
   https://adaway.org/hosts.txt
   https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+  https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts
   https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
   https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
   https://raw.githubusercontent.com/DandelionSprout/adfilt/master/RickrollLinkIdentifier.txt
@@ -32,7 +33,6 @@ urls=(
   https://secure.fanboy.co.nz/fanboy-annoyance.txt
   https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
   https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
-  https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt
   https://pgl.yoyo.org/as/serverlist.php?hostformat%3Ddomains%26mimetype%3Dplaintext
   https://someonewhocares.org/hosts/zero/hosts
   https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/alexa
@@ -53,6 +53,12 @@ urls=(
   https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
   https://easylist.to/easylist/easylist.txt
   https://easylist.to/easylist/easyprivacy.txt
+  https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+  https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/BaddBoyzHosts/master/clean.list
+  https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
+  https://easylist-downloads.adblockplus.org/easylistchina.txt
+  https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+  https://raw.githubusercontent.com/tiuxo/hosts/master/ads
 )
 
 # loop through the urls and download each file with curl
